@@ -1,5 +1,5 @@
 <template>
-  <section class="h-full sm:flex">
+  <section class="h-full flex flex-col md:flex-row justify-center items-center">
     <div class="flex-1/2 flex items-center justify-start md:justify-center">
       <h1 class="font-extrabold text-3xl md:text-6xl text-[#00a9be]">
         About
@@ -14,7 +14,7 @@
           Didan Agung Sergia
         </h1>
         <p class="desc md:text-xl" data-aos="fade-down" data-aos-delay="2300">
-          Saya adalah <span class="text-[#e33007] font-bold"> Fullstack Web Developer </span> dengan pengalaman lebih dari 3 tahun dalam membangun dan mengintegrasikan berbagai web. Saya memiliki pengalaman mengerjakan projek di bidang kesehatan dan korporat, mengelola perubahan source code, dan mengembangkan web. Saya memiliki antusias untuk mempelajari teknologi terbaru dan belakangan ini saya tertarik dengan bahasa <span class="text-[#00a9be] font-bold">Go</span>, tetapi disamping itu saya juga terus mengasah kemampuan saya di bahasa lain seperti php.
+          Saya adalah <span class="text-[#e33007] font-bold"> Fullstack Web Developer </span> dengan pengalaman lebih dari 3 tahun dalam membangun dan mengintegrasikan berbagai web. Saya memiliki pengalaman mengerjakan projek di bidang kesehatan dan korporat, mengelola perubahan source code, dan mengembangkan web. Saya memiliki antusias untuk mempelajari teknologi terbaru dan belakangan ini saya tertarik dengan bahasa <span class="text-[#00a9be] font-bold">Go</span>, tetapi disamping itu saya juga terus mengasah kemampuan saya dan terbiasa di bahasa lain seperti php khususnya di framework <span class="text-[#f42a03] font-bold">Laravel</span>.
         </p>
       </div>
     </div>

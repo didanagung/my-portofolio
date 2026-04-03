@@ -1,5 +1,5 @@
 <template>
-  <section class="h-full w-auto md:flex">
+  <section class="h-full w-auto md:flex justify-center items-center">
     <div class="md:flex-1/2 flex items-center justify-center">
       <Hero />
     </div>

@@ -27,7 +27,7 @@
     :class="menuToast ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full pointer-events-none'"
   >
     <div v-for="(item, index) in menu" :key="index" class="mt-5">
-      <NuxtLink :to="item.direct" class="hover:border-b" :class="route.path == item.direct ? 'text-[#e33007]' : ''"> {{ item.title }} </NuxtLink>
+      <NuxtLink :to="item.direct" class="hover:border-b" :class="route.path == item.direct ? 'text-[#e33007]' : ''" @click="menuToast = false"> {{ item.title }} </NuxtLink>
     </div>
     <div>
       <UColorModeButton />
@@ -48,9 +48,13 @@
       direct: "/about"
     },
     {
-      title: "Projects",
-      direct: "/projects"
+      title: "Skills",
+      direct: "/skills"
     },
+    // {
+    //   title: "Projects",
+    //   direct: "/projects"
+    // },
     {
       title: "Contact",
       direct: "/contact"

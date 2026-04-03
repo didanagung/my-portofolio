@@ -4,23 +4,23 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', href: '/ujang.jpg' }
   ],
   htmlAttrs: {
     lang: 'en'
   }
 })
 
-const title = 'Didan Portofolio'
-const description = 'Seorang Fullstack web developer yang selalu ingin belajar.'
+const title = 'Didan Agung Sergia Portofolio'
+const description = 'Seorang Fullstack web developer yang selalu ingin terus belajar. Tertarik dengan bahasa go atau golang dan laravel.'
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
+  ogImage: '/homepage.png',
+  twitterImage: '/homepage.png',
   twitterCard: 'summary_large_image'
 })
 </script>

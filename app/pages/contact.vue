@@ -1,5 +1,5 @@
 <template>
-  <section class="h-full flex flex-col md:flex-row">
+  <section class="h-full flex flex-col md:flex-row justify-center items-center">
     <div class="md:flex-1/2 flex items-center justify-center">
       <h1 class="font-extrabold text-3xl md:text-6xl text-[#00a9be]">
         Contact me
@@ -35,7 +35,7 @@
   const belumLengkap = ref(false)
   const emailNotValid = ref(false)
   const pesanBerhasil = ref(false)
-  const emailTujuan = ref('xosive1319@muncloud.com')
+  const emailTujuan = ref('didanagungs@gmail.com')
 
   const sendMessage = async() => {
     if (!input.value.name || !input.value.email || !input.value.pesan) {
