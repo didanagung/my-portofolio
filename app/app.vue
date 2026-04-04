@@ -11,8 +11,10 @@ useHead({
   }
 })
 
-const title = 'Didan Agung Sergia Portofolio'
+const judul = 'Didan Agung Sergia Portofolio'
+const title = "Didan Agung Sergia - Fullstack Web Developer"
 const description = 'Seorang Fullstack web developer yang selalu ingin terus belajar. Tertarik dengan bahasa go atau golang dan laravel.'
+const ngaranDewek = 'Didan Agung Sergia'
 
 useSeoMeta({
   title,
@@ -21,12 +23,30 @@ useSeoMeta({
   ogDescription: description,
   ogImage: '/homepage.png',
   twitterImage: '/homepage.png',
-  twitterCard: 'summary_large_image'
+  twitterCard: 'summary_large_image',
+  author: ngaranDewek,
+  ogType: "website",
+  ogSiteName: judul
+})
+
+const loading = ref(true)
+onMounted(() => {
+  const alreadyLoaded = sessionStorage.getItem('loaded')
+
+  if (!alreadyLoaded) {
+    setTimeout(() => {
+      loading.value = false
+      sessionStorage.setItem('loaded', 'true')
+    }, 2000)
+  } else {
+    loading.value = false
+  }
 })
 </script>
 
 <template>
-  <div class="px-5 py-3 h-screen flex flex-col overflow-hidden">
+  <FullScreenLoader :show="loading" />
+  <div class="px-5 py-3 h-screen flex flex-col">
     <Navbar />
 
     <main class="flex-1 w-full overflow-y-auto">

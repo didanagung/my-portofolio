@@ -1,15 +1,31 @@
 <template>
-  <section class="h-full w-auto md:flex justify-center items-center">
+  <section class="min-h-full w-auto md:flex justify-center items-center">
     <div class="md:flex-1/2 flex items-center justify-center">
       <Hero />
     </div>
     <div class="md:flex-1/2 flex items-center">
-      <div class="text-left md:text-right w-full">
+      <div class="text-left md:text-right w-full pr-5">
         <h3 class="text-5xl font-light iam text-[#00a9be]" data-aos="flip-down">I'm a</h3>
         <h1 class="text-7xl font-extrabold" data-aos="flip-down" data-aos-delay="600">Fullstack</h1>
         <h1 class="text-7xl font-extrabold text-[#e33007]" data-aos="flip-down" data-aos-delay="1000">Web Developer</h1>
+        <div class="my-7 flex gap-3 justify-center md:justify-end" data-aos="fade-up">
+          <NuxtLink
+            to="/files/resume.pdf"
+            external
+            download
+            class="text-center px-4 py-1 rounded-full bg-[#00a9be]"
+          >
+            Resume
+          </NuxtLink>
+          <NuxtLink
+            to="/contact"
+            class="text-center px-4 py-1 rounded-full bg-[#e33007]"
+          >
+            Contact Me
+          </NuxtLink>
+        </div>
         <div class="flex flex-col md:flex-row gap-3 justify-end my-5">
-          <span v-for="(skill, index) in skills" :key="index" class="text-center px-4 py-1 rounded-full border border-[#00a9be] hover:bg-[#e33007] hover:border-0" data-aos="fade-up" :data-aos-delay="(index + 1) * 200">
+          <span v-for="(skill, index) in skills" :key="index" class="text-center px-4 py-1 rounded-full border border-[#00a9be] hover:bg-[#e33007] hover:border-0" data-aos="fade-up" :data-aos-delay="(index + 1) * 200" data-aos-offset="-160">
             {{ skill }}
           </span>
         </div>

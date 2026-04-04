@@ -1,11 +1,11 @@
 <template>
   <section class="h-full flex flex-col md:flex-row justify-center items-center">
-    <div class="flex-1/2 flex items-center justify-start md:justify-center">
+    <div class="flex-1/12 md:flex-1/2 flex items-center justify-start md:justify-center">
       <h1 class="font-extrabold text-3xl md:text-6xl text-[#00a9be]">
         About
       </h1>
     </div>
-    <div class="flex-1/2 flex items-center justify-center">
+    <div class="flex-11/12 md:flex-1/2 flex items-center justify-center">
       <div class="w-full">
         <h3 class="desc text-3xl font-extrabold mt-10 text-[#e33007]" data-aos="fade-down">
           Hello, <span data-aos="fade-down" data-aos-delay="800">I'm</span>
