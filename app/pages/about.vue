@@ -14,7 +14,11 @@
           Didan Agung Sergia
         </h1>
         <p class="desc md:text-xl" data-aos="fade-down" data-aos-delay="2300">
-          Saya adalah <span class="text-[#e33007] font-bold"> Fullstack Web Developer </span> dengan pengalaman lebih dari 3 tahun dalam membangun dan mengintegrasikan berbagai web. Saya memiliki pengalaman mengerjakan projek di bidang kesehatan dan korporat, mengelola perubahan source code, dan mengembangkan web. Saya memiliki antusias untuk mempelajari teknologi terbaru dan belakangan ini saya tertarik dengan bahasa <span class="text-[#00a9be] font-bold">Go</span>, tetapi disamping itu saya juga terus mengasah kemampuan saya dan terbiasa di bahasa lain seperti php khususnya di framework <span class="text-[#f42a03] font-bold">Laravel</span>.
+          Saya adalah <span class="text-[#e33007] font-bold"> Fullstack Web Developer </span> dengan pengalaman lebih dari 3 tahun dalam merancang, mengembangkan, dan mengintegrasikan aplikasi web untuk sektor kesehatan dan korporat. Berpengalaman dalam pengembangan fitur, integrasi sistem, pengelolaan source code, serta pemeliharaan dan peningkatan aplikasi agar tetap optimal sesuai kebutuhan bisnis.
+          <br>
+          Memiliki kemampuan yang kuat dalam pengembangan backend menggunakan PHP dan framework <span class="text-[#f42a03] font-bold">Laravel</span>, serta didukung oleh pemahaman frontend yang baik untuk membangun aplikasi yang responsif dan mudah digunakan. Saya juga memiliki pengalaman bekerja dengan database, REST API, serta proses deployment dan kolaborasi dalam tim pengembangan.
+          <br>
+          Saya memiliki semangat belajar yang tinggi dan selalu mengikuti perkembangan teknologi terbaru. Saat ini saya sedang memperdalam bahasa <span class="text-[#00a9be] font-bold">Go</span> untuk memperluas wawasan dalam pengembangan sistem yang scalable dan berperforma tinggi, sambil terus mengasah kemampuan pada teknologi yang telah saya kuasai.
         </p>
       </div>
     </div>
